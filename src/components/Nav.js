@@ -7,9 +7,9 @@ function Nav() {
         <nav>
             <h3>Logo</h3>
             <ul className="nav-links">
-                <li>About Me</li>
                 <li>CV</li>
-                <li>Projects</li>
+                <li>Blog</li>
+                <li>Contact</li>
             </ul>
         </nav>
     );
