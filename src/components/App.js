@@ -7,13 +7,14 @@ import CV from './CV';
 import Blog from './Blog';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
+
 function App() {
     return (
         <Router>
             <div className="App">
                 <Nav />
                 <Switch>
-                    <Route path="/" exact render={pages =>
+                    <Route path="/" exact render={props =>
                         <div>
                             <LandingPage />
                             <About />

@@ -5,6 +5,19 @@
 h1 {
   padding: 0;
   margin: 0;
+  color: white;
+}
+
+h3 {
+  color: white;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+ul li {
+  color: white;
 }
 
 nav{
@@ -13,7 +26,7 @@ nav{
   justify-content: space-around;
   align-items: center;
   min-height: 6vh;
-  background-color: darkgrey;
+  background-color: #36454f;
   width: 100%;
   position: fixed;
 }
@@ -28,13 +41,15 @@ nav{
 
 .page-1{
   height: 100vh;
-  background-color: lightblue;
-  clear: none;
+  background-image: url(../images/welcome.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%; 
 }
 
 .page-2{
   height: 100vh;
   background-color: lightgray;
+
 }
 
 .page-3{
@@ -43,5 +58,7 @@ nav{
 }
 
 #startHeader {
-  padding-top: 100px;
+  padding-top: 50vh;
+  font-size: 5vh;
+  color: white;
 }
