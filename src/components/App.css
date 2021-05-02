@@ -3,12 +3,19 @@
 }
 
 h1 {
-  padding: 0;
+  padding: 2vh;
   margin: 0;
-  color: white;
+}
+
+h2 {
+  font-size: 2em;
 }
 
 h3 {
+  color: white;
+}
+
+body {
   color: white;
 }
 
@@ -47,14 +54,49 @@ nav{
 }
 
 .page-2{
-  height: 100vh;
-  background-color: lightgray;
+  height: 60vh;
+  background-color: #191919;
+}
 
+.container-left {
+  position: absolute;
+  left: 0px;
+  width: 50%;
+  padding-top: 5vh;
+}
+
+.container-left-text-part-one {
+  margin: auto;
+  width: 75%;
+  padding: 10px;
+  font-size: 2.5vh;
+}
+
+.container-left-text-part-two {
+  margin: auto;
+  width: 75%;
+  padding: 10px;
+  margin-top: 5%;
+  font-size: 2.5vh;
+}
+
+.container-right {
+  position: absolute;
+  right: 0px;
+  width: 50%;
+  padding-top: 5vh;
+}
+
+.container-right-text-part-one {
+  margin: auto;
+  width: 75%;
+  padding: 10px;
+  font-size: 2.5vh;
 }
 
 .page-3{
   height: 100vh;
-  background-color: lightsteelblue;
+  background-color: white;
 }
 
 #startHeader {

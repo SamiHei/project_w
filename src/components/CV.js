@@ -5,7 +5,7 @@ import './App.css';
 function CV() {
 return (
     <div>
-        <h1 id="startHeader">CV</h1>
+        <h1>CV</h1>
     </div>
   );
 }
