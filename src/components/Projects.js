@@ -1,15 +1,25 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 
 import './App.css';
 
-// TODO: Continue from here
-// * Get individual datas from data to be shown url example
-const data = fetch('https://api.github.com/users/SamiHei/repos')
-.then(response => response.json());
-
-console.log(data);
 
 function Projects() {
+
+    const [projects, setProjects] = useState([])
+
+    async function GetMyProjects() {
+        await fetch('https://api.github.com/users/SamiHei/repos')
+        .then(res => {res.json()
+        .then(projects => {setProjects(projects)});
+        })
+    }
+
+
+    useEffect(() => {
+        GetMyProjects();
+        console.log(projects);
+    },[])
+
     return (
         <div className="page-3">
             <h1>Projects</h1>
