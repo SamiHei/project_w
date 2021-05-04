@@ -5,6 +5,7 @@
 h1 {
   padding: 2vh;
   margin: 0;
+  color: black;
 }
 
 h2 {
@@ -28,7 +29,6 @@ ul li {
 }
 
 nav{
-  top: 0px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -59,7 +59,7 @@ nav{
 }
 
 .container-left {
-  position: absolute;
+  float: left;
   left: 0px;
   width: 50%;
   padding-top: 5vh;
@@ -81,7 +81,7 @@ nav{
 }
 
 .container-right {
-  position: absolute;
+  float: right;
   right: 0px;
   width: 50%;
   padding-top: 5vh;
@@ -95,7 +95,7 @@ nav{
 }
 
 .page-3{
-  height: 100vh;
+  height: 75vh;
   background-color: white;
 }
 
@@ -103,4 +103,30 @@ nav{
   padding-top: 50vh;
   font-size: 5vh;
   color: white;
+}
+
+/* These are for horizontal nav */
+.menu-item {
+  padding: 0 40px;
+  margin: 5px 10px;
+  user-select: none;
+  cursor: pointer;
+  border: none;
+}
+
+.menu-item-wrapper.active {
+  border: 1px blue solid;
+}
+
+.menu-item.active {
+  border: 1px green solid;
+}
+
+.scroll-menu-arrow {
+  padding: 20px;
+  cursor: pointer;
+}
+
+.test {
+  color: black;
 }
