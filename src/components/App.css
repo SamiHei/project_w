@@ -105,6 +105,61 @@ nav{
   color: white;
 }
 
-.test {
+.centered {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.horizontal-menu {
+  margin: auto;
+  width: 100%;
+  padding: 10px;
+}
+
+.project-item-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25vh;
+  height: 50vh;
+  margin-left: 25px; margin-right: 25px;
+  border: 1px  solid black;
+}
+
+.project-item-image {
+  position: absolute;
+  top: 0;
+  width: inherit;
+  height: 50%;
+
+  background-image: url(../images/GitHub_Logo.png);
+  background-repeat: no-repeat;
+  background-size: 100% 50%;
+}
+
+.project-item-content {
+  position: absolute;
+  bottom: 0;
+  width: inherit;
+  height: 50%;
+
   color: black;
+  text-align: center;
+  font-size: 2vh;
+}
+
+.menu-item {
+  color: black;
+  padding: 0 8px;
+  margin: 5px 10px;
+  user-select: none;
+  cursor: pointer;
+  border: none;
+}
+
+.scroll-menu-arrow {
+  color: black;
+  padding: 20px;
+  cursor: pointer;
 }

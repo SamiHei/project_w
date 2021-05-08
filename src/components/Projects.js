@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import {Link} from 'react-router-dom';
 import ScrollMenu from 'react-horizontal-scrolling-menu';
 import './App.css';
 
@@ -28,17 +27,35 @@ function Projects() {
         );
     };
 
-    // Testing left and right arrow
+    const MenuItem = ({url, text, selected}) => {
+        return <a href={url}
+            className={`project-item-container ${selected ? 'active' : ''}`}>
+                <div className="project-item-image"></div>
+                <div className="project-item-content">{text}</div>
+            </a>
+    }
+
+    const Menu = () =>
+        projects.map(item => {
+        const {name} = item;
+        const {html_url} = item;
+
+        return <MenuItem url={html_url} text={name} key={name} />;
+    });
+
+    const menu = Menu();
+
     const ArrowLeft = Arrow({ text: '<', className: 'arrow-prev' });
     const ArrowRight = Arrow({ text: '>', className: 'arrow-next' });
 
     return (
         <div className="page-3">
             <h1>Projects</h1>
-            <div className="test">
-                <ScrollMenu data={projects.map(project => <div key={project.name}>{project.name}</div>)}
+            <div className="centered">
+                <ScrollMenu data={menu}
                 arrowLeft={ArrowLeft}
                 arrowRight={ArrowRight}
+                wheel={false}
                 />
             </div>
         </div>
