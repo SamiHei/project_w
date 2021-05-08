@@ -1,0 +1,25 @@
+a:link {
+    text-decoration: none;
+}
+  
+ul li {
+    color: white;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 6vh;
+    background-color: #36454f;
+    width: 100%;
+    position: fixed;
+}
+  
+.nav-links{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}

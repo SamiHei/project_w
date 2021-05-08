@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import ScrollMenu from 'react-horizontal-scrolling-menu';
-import './App.css';
+import './Projects.css';
 
 
 function Projects() {

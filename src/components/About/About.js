@@ -1,6 +1,6 @@
 import React from 'react';
-import './App.css';
-import data from '../content/about_me.json';
+import './About.css';
+import data from '../../content/about_me.json';
 
 
 

@@ -1,10 +1,10 @@
 import './App.css';
-import Nav from './Nav';
-import LandingPage from './LandingPage';
-import About from './About';
-import Projects from './Projects';
-import CV from './CV';
-import Blog from './Blog';
+import Nav from './Nav/Nav';
+import LandingPage from './LandingPage/LandingPage';
+import About from './About/About';
+import Projects from './Projects/Projects';
+import CV from './CV/CV';
+import Blog from './Blog/Blog';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 
