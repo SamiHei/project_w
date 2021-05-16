@@ -3,11 +3,12 @@
     height: 100vh;
     background-image: url(../../images/welcome.jpg);
     background-repeat: no-repeat;
-    background-size: 100% 100%; 
+    background-size: cover;
+    background-position: 0% 50%;
 }
   
 #startHeader {
-    padding-top: 50vh;
+    padding-top: 25vh;
     font-size: 5vh;
     color: white;
 }
