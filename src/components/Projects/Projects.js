@@ -56,7 +56,7 @@ function Projects() {
                 arrowLeft={ArrowLeft}
                 arrowRight={ArrowRight}
                 wheel={false}
-                transition="0.75"
+                transition="5"
                 />
             </div>
         </div>
