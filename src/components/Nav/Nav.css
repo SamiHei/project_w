@@ -26,7 +26,8 @@ ul li {
 
 .nav-bar.active {
     min-height: 6vh;
-    background-color: #36454f;
+    background-color: white;
+    /* background-color: #36454f; */
 }
   
 .nav-links{
