@@ -1,6 +1,6 @@
 .page-3{
-    height: 75vh;
-    background-color: darkgrey;
+    height: 50vh;
+    background-color: white;
 }
 
 .centered {
@@ -16,37 +16,45 @@
 }
 
 .project-item-container {
-    background-color: white;
+    background-color: lightcyan;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 25px;
     width: 25vh;
-    height: 50vh;
+    height: 25vh;
     margin-left: 25px; margin-right: 25px;
-    border: 1px  solid black;
-}
-  
-.project-item-image {
-    position: absolute;
-    top: 0;
-    width: inherit;
-    height: 50%;
-  
-    background-image: url(../../images/GitHub_Logo.png);
-    background-repeat: no-repeat;
-    background-size: 100% 50%;
+    border-radius: 10px;
+    border: solid 1px #eaeaea;
+    box-shadow: 0 2px 6px 0 rgb(0 0 0 / 15%);
 }
   
 .project-item-content {
     position: absolute;
     bottom: 0;
     width: inherit;
-    height: 50%;
-  
+    height: 70%;
+
     color: black;
     text-align: center;
     font-size: 2vh;
+}
+
+.project-language {
+    position: absolute;
+    width: inherit;
+    bottom: 0;
+    height: 50%;
+
+    color: black;
+    text-align: center;
+    font-size: 1.5vh;
+}
+
+.project-github-logo {
+    position: absolute;
+    bottom: 0;
+    width: 10vh;
+    height: 5vh;
 }
   
 .menu-item {

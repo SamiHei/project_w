@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import ScrollMenu from 'react-horizontal-scrolling-menu';
 import './Projects.css';
+import GithubLogo from '../../images/GitHub_Logo.png'
 
 
 function Projects() {
@@ -27,20 +28,22 @@ function Projects() {
         );
     };
 
-    const MenuItem = ({url, text, selected}) => {
+    const MenuItem = ({url, text, language, selected}) => {
         return <a href={url}
             className={`project-item-container ${selected ? 'active' : ''}`}>
-                <div className="project-item-image"></div>
                 <div className="project-item-content">{text}</div>
+                <div className="project-language">{language}</div> 
+                <img src={GithubLogo} className="project-github-logo" />
             </a>
     }
 
     const Menu = () =>
         projects.map(item => {
         const {name} = item;
+        const {language} = item;
         const {html_url} = item;
 
-        return <MenuItem url={html_url} text={name} key={name} />;
+        return <MenuItem url={html_url} text={name} language={language} key={name} />;
     });
 
     const menu = Menu();
