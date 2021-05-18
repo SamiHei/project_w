@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './Nav.css';
 import {Link} from 'react-router-dom';
+import logo from '../../images/logo.png'
 
 
 function Nav() {
@@ -20,7 +21,7 @@ function Nav() {
     return (
         <nav className={navBar ? 'nav-bar active' : 'nav-bar'}>
             <Link to="/">
-                <h3>Logo</h3>
+                <img src={logo} className="logo"/>
             </Link>
             <ul className="nav-links">
                 <Link to="/cv">
