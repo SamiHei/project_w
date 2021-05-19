@@ -44,3 +44,7 @@ nav.nav-bar.active li {
     list-style: none;
     color: black;
 }
+
+.arrow-prev, .arrow-next {
+    font-size: 7.5vh;
+}

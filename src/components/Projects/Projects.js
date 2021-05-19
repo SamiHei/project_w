@@ -62,7 +62,7 @@ function Projects() {
 
     const menu = Menu();
 
-    const ArrowLeft = Arrow({ text: '<', className: 'arrow-prev' });
+    const ArrowLeft = Arrow({ text: '<', className: 'arrow-prev'});
     const ArrowRight = Arrow({ text: '>', className: 'arrow-next' });
 
     return (
