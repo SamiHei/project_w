@@ -14,7 +14,8 @@ return (
       </div>
       <div className="container-right">
       <div className="header-text">{data.headerTwo}</div>
-        <div className="container-right-text-part-one">{data.tempFill}</div>
+        <div className="container-right-text-part-one">{data.lifeGoalsFirstPart}</div>
+        <div className="container-right-text-part-two">{data.lifeGoalsSecondPart}</div>
       </div>
     </div>
   );

@@ -42,3 +42,11 @@
     padding: 50px;
     font-size: 25px
 }
+
+.container-right-text-part-two {
+    margin: auto;
+    width: 75%;
+    padding: 10px;
+    margin-top: 5%;
+    font-size: 25px;
+}
