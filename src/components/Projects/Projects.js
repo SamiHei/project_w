@@ -15,9 +15,23 @@ function Projects() {
         })
     }
 
+    function CapitalizeProjectNames(text) {
+        let parts = text.split('_');
+        let res = '';
+        let len = parts.length;
+
+        for (var i = 0; i < len; i++) {
+            res += parts[i].charAt(0).toUpperCase() + parts[i].slice(1);
+            if (i !== (len - 1)) {
+                res += ' ';
+            }
+        }
+
+        return res;
+    }
+
     useEffect(() => {
         GetMyProjects();
-        console.log(projects);
     },[])
 
     const Arrow = ({ text, className }) => {
@@ -39,7 +53,7 @@ function Projects() {
 
     const Menu = () =>
         projects.map(item => {
-        const {name} = item;
+        const name = CapitalizeProjectNames(item.name);
         const {language} = item;
         const {html_url} = item;
 
