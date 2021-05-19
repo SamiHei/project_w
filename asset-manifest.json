@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/project_w/static/css/main.330755e3.chunk.css",
-    "main.js": "/project_w/static/js/main.f54bd08c.chunk.js",
-    "main.js.map": "/project_w/static/js/main.f54bd08c.chunk.js.map",
+    "main.css": "/project_w/static/css/main.e4079f9c.chunk.css",
+    "main.js": "/project_w/static/js/main.b3cdc445.chunk.js",
+    "main.js.map": "/project_w/static/js/main.b3cdc445.chunk.js.map",
     "runtime-main.js": "/project_w/static/js/runtime-main.923cfc57.js",
     "runtime-main.js.map": "/project_w/static/js/runtime-main.923cfc57.js.map",
     "static/js/2.88592262.chunk.js": "/project_w/static/js/2.88592262.chunk.js",
     "static/js/2.88592262.chunk.js.map": "/project_w/static/js/2.88592262.chunk.js.map",
     "index.html": "/project_w/index.html",
-    "static/css/main.330755e3.chunk.css.map": "/project_w/static/css/main.330755e3.chunk.css.map",
+    "static/css/main.e4079f9c.chunk.css.map": "/project_w/static/css/main.e4079f9c.chunk.css.map",
     "static/js/2.88592262.chunk.js.LICENSE.txt": "/project_w/static/js/2.88592262.chunk.js.LICENSE.txt",
     "static/media/GitHub_Logo.746ec8f0.png": "/project_w/static/media/GitHub_Logo.746ec8f0.png",
     "static/media/logo.e2a21c04.png": "/project_w/static/media/logo.e2a21c04.png",
@@ -17,7 +17,7 @@
   "entrypoints": [
     "static/js/runtime-main.923cfc57.js",
     "static/js/2.88592262.chunk.js",
-    "static/css/main.330755e3.chunk.css",
-    "static/js/main.f54bd08c.chunk.js"
+    "static/css/main.e4079f9c.chunk.css",
+    "static/js/main.b3cdc445.chunk.js"
   ]
 }
