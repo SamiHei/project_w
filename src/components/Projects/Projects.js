@@ -43,7 +43,7 @@ function Projects() {
     };
 
     const MenuItem = ({url, text, language, selected}) => {
-        return <a href={url}
+        return <a href={url} target="_blank" rel="noreferrer"
             className={`project-item-container ${selected ? 'active' : ''}`}>
                 <div className="project-item-content">{text}</div>
                 <div className="project-language">{language}</div> 
