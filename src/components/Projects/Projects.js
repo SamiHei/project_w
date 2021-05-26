@@ -66,7 +66,7 @@ function Projects() {
     const ArrowRight = Arrow({ text: '>', className: 'arrow-next' });
 
     return (
-        <div className="page-3">
+        <div id="page-3">
             <h1>Projects</h1>
             <div className="centered">
                 <ScrollMenu data={menu}

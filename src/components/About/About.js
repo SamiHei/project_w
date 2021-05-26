@@ -6,7 +6,7 @@ import data from '../../content/about_me.json';
 
 function About() {
 return (
-    <div className="page-2">
+    <div id="page-2">
       <div className="about-me-header">{data.header}</div>
       <div className="container-left">
         <div className="container-left-text-part-one">{data.aboutMeFirstPart}</div>

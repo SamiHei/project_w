@@ -24,14 +24,14 @@ function Nav() {
                 <img src={logo} className="logo-home"/>
             </Link>
             <ul className="nav-links">
+                <a href="#page-2">
+                    <li>About</li>
+                </a>
+                <a href="#page-3">
+                    <li>Projects</li>
+                </a>
                 <Link to="/cv">
                     <li>CV</li>
-                </Link>
-                <Link to="/blog">
-                    <li>Blog</li>
-                </Link>
-                <Link to="/Contact">
-                    <li>Contact</li>
                 </Link>
             </ul>
         </nav>
