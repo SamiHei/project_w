@@ -20,12 +20,12 @@ function Nav() {
 
     return (
         <nav className={navBar ? 'nav-bar active' : 'nav-bar'}>
-            <Link to="/">
+            <a href="/#page-1">
                 <img src={logo} className="logo-home"/>
-            </Link>
+            </a>
             <ul className="nav-links">
                 <a href="#page-2">
-                    <li>About</li>
+                    <li>About me</li>
                 </a>
                 <a href="#page-3">
                     <li>Projects</li>
