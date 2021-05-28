@@ -4,7 +4,7 @@ import LandingPage from './LandingPage/LandingPage';
 import About from './About/About';
 import Projects from './Projects/Projects';
 import CV from './CV/CV';
-import Blog from './Blog/Blog';
+import Footer from './Footer/Footer'
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 
@@ -19,9 +19,9 @@ function App() {
                             <LandingPage />
                             <About />
                             <Projects />
+                            <Footer />
                         </div>} />
                     <Route path="/cv" exact component={CV}/>
-                    <Route path="/blog" exact component={Blog}/>
                 </Switch>
             </div>
         </Router>

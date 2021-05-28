@@ -22,7 +22,6 @@ a:link {
 .nav-bar.active {
     min-height: 6vh;
     background-color: white;
-    /* background-color: #36454f; */
 }
 
 nav.nav-bar li {
