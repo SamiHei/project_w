@@ -1,11 +1,12 @@
 import React from 'react';
 
-import '../App.css';
+import './CV.css';
 
 function CV() {
 return (
     <div>
-        <h1>CV</h1>
+        <div className="header-text">CV</div>
+        <div className="text-line">TODO</div>
     </div>
   );
 }

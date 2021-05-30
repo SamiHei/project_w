@@ -7,14 +7,12 @@ import data from '../../content/about_me.json';
 function About() {
 return (
     <div id="page-2">
-      <div className="about-me-header">{data.header}</div>
-      <div className="container-left">
-        <div className="container-left-text-part-one">{data.aboutMeFirstPart}</div>
-        <div className="container-left-text-part-two">{data.aboutMeSecondPart}</div>
+      <div className="container-upper">
+        <div className="about-me-header">{data.header}</div>
+        <div className="text-container">{data.aboutMe1}{data.aboutMe2}</div>
       </div>
-      <div className="container-right">
-        <div className="container-right-text-part-one">{data.lifeGoalsFirstPart}</div>
-        <div className="container-right-text-part-two">{data.lifeGoalsSecondPart}</div>
+      <div className="container-lower">
+        <div className="text-container">{data.aboutMe3}{data.aboutMe4}</div>
       </div>
     </div>
   );

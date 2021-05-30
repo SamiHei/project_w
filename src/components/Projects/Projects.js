@@ -67,7 +67,7 @@ function Projects() {
 
     return (
         <div id="page-3">
-            <h1>Projects</h1>
+            <div className="project-header">Projects</div>
             <div className="centered">
                 <ScrollMenu data={menu}
                 arrowLeft={ArrowLeft}

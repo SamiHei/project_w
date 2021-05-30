@@ -38,16 +38,21 @@ nav.nav-bar li:hover {
     transform: scale(1.2);
     text-decoration: underline;
 }
-  
+
 .nav-links{
-    width: 50%;
+    width: 30%;
     display: flex;
     justify-content: space-around;
     align-items: center;
     list-style: none;
-    color: black;
 }
 
-.arrow-prev, .arrow-next {
-    font-size: 7.5vh;
+@media only screen and (max-width: 600px) {
+    .nav-links{
+        width: 75%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        list-style: none;
+    }
 }
