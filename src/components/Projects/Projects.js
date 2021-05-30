@@ -47,7 +47,7 @@ function Projects() {
             className={`project-item-container ${selected ? 'active' : ''}`}>
                 <div className="project-item-content">{text}</div>
                 <div className="project-language">{language}</div> 
-                <img src={GithubLogo} className="project-github-logo" />
+                <img src={GithubLogo} className="project-github-logo" alt="GitHub" />
             </a>
     }
 

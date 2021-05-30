@@ -11,10 +11,10 @@ return (
     <div id="footer">
         <div className="contact-header">{contact.contactHeader}</div>
         <div className="email">{contact.contactEmail}</div>
-        <a href="https://github.com/SamiHei" target="_blank">
+        <a href="https://github.com/SamiHei" target="_blank" rel="noreferrer">
             <FontAwesomeIcon className="github" icon={faGithubSquare} size="3x" />
         </a>
-        <a href="https://www.linkedin.com/in/sami-mk-heikkinen/" target="_blank">
+        <a href="https://www.linkedin.com/in/sami-mk-heikkinen/" target="_blank" rel="noreferrer">
             <FontAwesomeIcon className="linkedin" icon={faLinkedin} size="3x" />
         </a>
     </div>

@@ -21,7 +21,7 @@ function Nav() {
     return (
         <nav className={navBar ? 'nav-bar active' : 'nav-bar'}>
             <a href="./">
-                <img src={logo} className="logo-home"/>
+                <img src={logo} className="logo-home" alt="Logo"/>
             </a>
             <ul className="nav-links">
                 <a href="#page-2">
