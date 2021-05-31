@@ -5,7 +5,7 @@
 
 .image {
     position: absolute;
-    top: 8vh;
+    top: 10vh;
     float: left;
     border-radius: 50%;
     width: 10vw;
@@ -24,15 +24,15 @@
     color: black;
     position: absolute;
     top: 20vh;
+    left: 12vw;
     width: 75%;
-    padding-left: 300px;
     font-size: 25px;
 }
 
 .profile-header {
     color: black;
     position: absolute;
-    top: 30vh;
+    top: 34vh;
     width: 75%;
     left: 12vw;
     font-size: 40px;
