@@ -12,10 +12,10 @@ function App() {
     return (
         <Router basename={process.env.PUBLIC_URL}>
             <div className="App">
-                <Nav />
                 <Switch>
                     <Route path="/" exact render={props =>
                         <div>
+                            <Nav />
                             <LandingPage />
                             <About />
                             <Projects />

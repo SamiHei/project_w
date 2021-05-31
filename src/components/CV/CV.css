@@ -1,13 +1,45 @@
-.header-text {
-    color: black;
-    font-size: 60px;
-    text-align: center;
-    padding-top: 100px
+.cv {
+    height: 100vh;
+    display: flex;
 }
 
-.text-line {
+.image {
+    position: absolute;
+    top: 8vh;
+    float: left;
+    border-radius: 50%;
+    width: 10vw;
+}
+
+.header-text {
+    position: absolute;
+    top: 10vh;
+    left: 12vw;
     color: black;
+    font-size: 45px;
+    text-decoration: underline;
+}
+
+.introduction {
+    color: black;
+    position: absolute;
+    top: 20vh;
+    width: 75%;
+    padding-left: 300px;
+    font-size: 25px;
+}
+
+.profile-header {
+    color: black;
+    position: absolute;
+    top: 30vh;
+    width: 75%;
+    left: 12vw;
     font-size: 40px;
-    text-align: center;
-    padding-top: 50px;
+}
+
+.profile-header li {
+    font-size: 25px;
+    padding-top: 25px;
+    margin-left: 50px;
 }
