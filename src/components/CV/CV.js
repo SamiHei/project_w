@@ -30,24 +30,32 @@ return (
       </div>
       <div className="skills-container">
         <div className="lower-header">Skills</div>
-        <div className="skills-container-left">
-          <div className="skills-header">Programming</div>
-          <li>{content.programming1}</li>
-          <li>{content.programming2}</li>
-          <li>{content.programming3}</li>
-          <div className="skills-header">Test automation</div>
-          <li>{content.testAutomation1}</li>
-          <li>{content.testAutomation2}</li>
-          <li>{content.testAutomation3}</li>
+        <div className="skills-top-container">
+          <div className="left-side">
+            <div className="skills-header">Programming</div>
+            <li>{content.programming1}</li>
+            <li>{content.programming2}</li>
+            <li>{content.programming3}</li>
+          </div>
+          <div className="right-side">
+            <div className="skills-header">Test automation</div>
+            <li>{content.testAutomation1}</li>
+            <li>{content.testAutomation2}</li>
+            <li>{content.testAutomation3}</li>
+          </div>
         </div>
-        <div className="skills-container-right">
-          <div className="skills-header-right">DevOps</div>
+        <div className="skills-bottom-container">
+          <div className="left-side">
+            <div className="skills-header-right">DevOps</div>
             <li>{content.devops1}</li>
             <li>{content.devops2}</li>
             <li>{content.devops3}</li>
             <li>{content.devops4}</li>
-        <div className="skills-header-right">Automation</div>
+          </div>
+          <div className="right-side">
+            <div className="skills-header-right">Automation</div>
             <li>{content.automation}</li>
+          </div>
         </div>
       </div>
       <div className="work-container">

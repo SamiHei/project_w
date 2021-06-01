@@ -62,32 +62,53 @@
 
 .education-text {
     padding-top: 25px;
+    margin-left: 25px;
     font-size: 30px;
 }
 
 .skills-container {
+    display: flex;
+    flex-direction: column;
     padding-top: 25px;
 }
 
-.skills-container-left {
+.skills-top-container {
+    padding-left: 25px;
+    flex: 0 0 85%;
+    width: 100%;
+}
+
+.skills-header {
+    padding-top: 15px;
+    font-size: 30px;
+}
+
+.left-side {
     float: left;
     width: 50%;
 }
 
-.skills-header {
-    padding-top: 30px;
-    font-size: 30px;
-}
-
-.skills-container-left li {
+.left-side li {
     padding-top: 10px;
     font-size: 20px;
     margin-left: 50px;
 }
 
-.skills-container-right {
-    float: right;
+.right-side {
     width: 50%;
+    float: right;
+}
+
+.right-side li {
+    padding-top: 10px;
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+.skills-bottom-container {
+    padding-left: 25px;
+    flex: 0 0 100%;
+    width: 100%;
 }
 
 .skills-header-right {
@@ -95,14 +116,8 @@
     font-size: 30px;
 }
 
-.skills-container-right li {
-    padding-top: 10px;
-    font-size: 20px;
-    margin-left: 50px;
-}
-
 .work-container {
-    margin-top: 400px;
+    padding-top: 25px;
     margin-bottom: 100px;
 }
 
