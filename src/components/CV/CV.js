@@ -6,8 +6,6 @@ import content from '../../content/cv.json';
 function CV() {
 return (
   <div className="cv-page">
-    <div className="left-bar"></div>
-    <div className="right-bar"></div>
     <div className="cv">
       <div className="top-container">
         <div>
