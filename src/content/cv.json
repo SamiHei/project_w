@@ -3,5 +3,37 @@
     "profile1": "An avid IT worker",
     "profile2": "IT student at the University of Jyväskylä and graduated Wellness techonology engineer",
     "profile3": "Expertise specially on manual testing, testautomation, CI/CD solutions and also Python programming",
-    "profile4": "In my freetime I like to do sports, play games and do some programming projects"
+    "profile4": "In my freetime I like to do sports, play games and do some programming projects",
+
+    "education1": "Master's Degree Programme in Information Technology | 2019- | University Of Jyväskylä",
+    "education2": "Wellness Technology Engineer | Graduated 2017 | JAMK University of Applied Sciences",
+
+    "programming1": "Programming classes in university (Java, C#, some C and C++)",
+    "programming2": "Programming at work (Python and Java)",
+    "programming3": "Own programming projects (Python, React/JS/html/css)",
+
+    "testAutomation1": "Designing and implementing test automation",
+    "testAutomation2": "Robot Framework and Python",
+    "testAutomation3": "Mocha/Selenium (JavaScript)",
+
+    "devops1": "Docker (Small testing for test automation solutions)",
+    "devops2": "AWS (Small CI/CD stuff for AWS services)",
+    "devops3": "Linux",
+    "devops4": "Scripting (Shell)",
+
+    "automation": "CI/CD solutions (Jenkins and CircleCI)",
+
+    "workExp1": "Test automation consultant | Q-Factory Oy | September 2020 - present",
+    "workExp1_1": "Test automation (Robot Framework and Python",
+    "workExp1_2": "Jenkins",
+
+    "workExp2": "DevOps Specialist | Firstbeat Technologies Oy | February 2019 - June 2020",
+    "workExp2_1": "CI/CD solutions and maintenance for existing environments",
+    "workExp2_2": "Jenkins and CircleCI solutions",
+    "workExp2_3": "Java programming",
+
+    "workExp3": "QA Engineer | Firstbeat Technologies Oy | May 2017 - February 2019",
+    "workExp3_1": "Designing and executing manual testing",
+    "workExp3_2": "Test automation implementations",
+    "workExp3_3": "Searching best test automation technologies and solutions"
 }

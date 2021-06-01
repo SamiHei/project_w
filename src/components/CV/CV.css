@@ -1,45 +1,139 @@
-.cv {
-    height: 100vh;
+.cv-page {
     display: flex;
 }
 
+.left-bar {
+    height: 100%;
+    width: 7.5%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color:#191919;
+}
+
+.right-bar {
+    height: 100%;
+    width: 7.5%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color:#191919;
+}
+
+.cv {
+    height: 100vh;
+    width: 75%;
+    color: black;
+    margin: 0 auto;
+}
+
+.top-container {
+    margin-top: 10vh;
+}
+
 .image {
-    position: absolute;
-    top: 10vh;
+    margin-top: 10px;
     float: left;
     border-radius: 50%;
-    width: 10vw;
+    width: 175px;
 }
 
 .header-text {
-    position: absolute;
-    top: 10vh;
-    left: 12vw;
+    width: 800px;
+    text-indent: 25px;
     color: black;
     font-size: 45px;
     text-decoration: underline;
 }
 
 .introduction {
-    color: black;
-    position: absolute;
-    top: 20vh;
-    left: 12vw;
+    padding: 25px 0px 0px 200px;
     width: 75%;
+    color: black;
     font-size: 25px;
 }
 
-.profile-header {
-    color: black;
-    position: absolute;
-    top: 34vh;
-    width: 75%;
-    left: 12vw;
+.lower-header {
     font-size: 40px;
+    text-decoration: underline;
 }
 
-.profile-header li {
+.profile-container {
+    padding-top: 50px;
+}
+
+.profile-list {
     font-size: 25px;
     padding-top: 25px;
     margin-left: 50px;
+}
+
+.profile-list li {
+    padding: 10px;
+}
+
+.education-container {
+    padding-top: 25px;
+}
+
+.education-text {
+    padding-top: 25px;
+    font-size: 30px;
+}
+
+.skills-container {
+    padding-top: 25px;
+}
+
+.skills-container-left {
+    float: left;
+    width: 50%;
+}
+
+.skills-header {
+    padding-top: 30px;
+    font-size: 30px;
+}
+
+.skills-container-left li {
+    padding-top: 10px;
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+.skills-container-right {
+    float: right;
+    width: 50%;
+}
+
+.skills-header-right {
+    padding-top: 30px;
+    font-size: 30px;
+    text-indent: 30px;
+}
+
+.skills-container-right li {
+    padding-top: 10px;
+    font-size: 20px;
+    margin-left: 80px;
+}
+
+.work-container {
+    margin-top: 400px;
+    margin-bottom: 100px;
+}
+
+.work-experience-container {
+    padding-left: 25px;
+}
+
+.work-header {
+    padding-top: 25px;
+    font-size: 30px;
+}
+
+.work-experience-container li {
+    font-size: 20px;
+    margin-left: 50px;
+    padding-top: 10px;
 }
