@@ -8,7 +8,7 @@ function CV() {
 return (
   <div className="cv-page">
     <div className="cv">
-    <a href="/project_w">
+    <a href="/">
       <img src={logo} className="home-logo" alt="Logo"/>
     </a>
       <div className="top-container">
