@@ -1,15 +1,19 @@
 import React from 'react';
 import './CV.css';
-import pic from '../../images/profile.jpeg'
+import pic from '../../images/profile.jpeg';
 import content from '../../content/cv.json';
+import logo from '../../images/logo.png'
 
 function CV() {
 return (
   <div className="cv-page">
     <div className="cv">
+    <a href="/project_w">
+      <img src={logo} className="home-logo" alt="Logo"/>
+    </a>
       <div className="top-container">
         <div>
-          <img src={pic} className="image" />
+          <img src={pic} className="image" alt="Profile"/>
         </div>
         <div className="header-text">Sami Heikkinen</div>
         <div className="introduction">{content.introduction}</div>

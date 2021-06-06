@@ -5,14 +5,21 @@
 
 .cv {
     padding-left: 100px;
-    width: 85%;
+    width: 60%;
     color: black;
     background-color: white;
     margin: 0 auto;
 }
 
+.home-logo {
+    top: 0;
+    float: right;
+    padding: 25px 25px;
+    height: 60px;
+}
+
 .top-container {
-    margin-top: 10vh;
+    margin-top: 5vh;
 }
 
 .image {
@@ -134,4 +141,32 @@
     font-size: 20px;
     margin-left: 50px;
     padding-top: 10px;
+}
+
+@media print {
+    .education-container {
+        page-break-after: always;
+    }
+
+    .cv {
+        padding-left: 50px;
+        width: 100%;
+        color: black;
+        background-color: white;
+        margin: 0 auto;
+    }
+
+    .top-container {
+        margin-top: 3vh;
+    }
+
+    .education-text {
+        padding-top: 50px;
+        margin-left: 25px;
+        font-size: 30px;
+    }
+
+    .home-logo {
+        display: none;
+    }
 }
