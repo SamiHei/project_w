@@ -23,7 +23,7 @@
 }
 
 .image {
-    margin-top: 10px;
+    margin-top: 15px;
     float: left;
     border-radius: 50%;
     width: 175px;
@@ -168,5 +168,158 @@
 
     .home-logo {
         display: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .cv-page {
+        display: block;
+        background-color: white;
+        text-align: center;
+    }
+    
+    .cv {
+        padding-left: 0px;
+        width: 100vw;
+        color: black;
+        background-color: white;
+    }
+    
+    .home-logo {
+        position: absolute;
+        left: 0;
+        top: 0;
+        padding: 15px 0 0 15px;
+        float: none;
+        height: 50px;
+    }
+    
+    .top-container {
+        margin-top: 10vh;
+    }
+    
+    .image {
+        float: none;
+        margin: auto;
+        border-radius: 50%;
+        width: 175px;
+    }
+    
+    .header-text {
+        width: 100%;
+        text-indent: 0;
+        color: black;
+        font-size: 35px;
+        text-decoration: underline;
+        padding-top: 30px;
+    }
+    
+    .introduction {
+        padding: 15px 0 0 0;
+        width: 85%;
+        margin: auto;
+        color: black;
+        font-size: 20px;
+    }
+    
+    .lower-header {
+        font-size: 30px;
+        text-decoration: underline;
+    }
+    
+    .profile-container {
+        padding-top: 25px;
+    }
+    
+    .profile-list {
+        font-size: 20px;
+        padding-top: 25px;
+        margin-left: 0px;
+        list-style-type: none;
+    }
+    
+    .profile-list li {
+        padding: 10px;
+    }
+    
+    .education-container {
+        padding-top: 25px;
+    }
+    
+    .education-text {
+        padding-top: 25px;
+        margin-left: 0px;
+        font-size: 20px;
+    }
+    
+    .skills-container {
+        display: block;
+        padding-top: 25px;
+        list-style-type: none;
+    }
+    
+    .skills-top-container {
+        padding-left: 0px;
+        flex: 0 0 0;
+        width: 100%;
+    }
+    
+    .skills-header {
+        padding-top: 15px;
+        font-size: 25px;
+    }
+    
+    .left-side {
+        float: none;
+        width: 100%;
+    }
+    
+    .left-side li {
+        padding-top: 10px;
+        font-size: 20px;
+        margin-left: 0px;
+    }
+    
+    .right-side {
+        width: 100%;
+        float: none;
+    }
+    
+    .right-side li {
+        padding-top: 10px;
+        font-size: 20px;
+        margin-left: 0px;
+    }
+    
+    .skills-bottom-container {
+        padding-left: 0px;
+        flex: 0 0 0;
+        width: 100%;
+    }
+    
+    .skills-header-right {
+        padding-top: 30px;
+        font-size: 25px;
+    }
+    
+    .work-container {
+        padding-top: 25px;
+        margin-bottom: 100px;
+    }
+    
+    .work-experience-container {
+        padding-left: 0;
+    }
+    
+    .work-header {
+        padding-top: 25px;
+        font-size: 25px;
+    }
+    
+    .work-experience-container li {
+        font-size: 20px;
+        margin-left: 50px;
+        padding-top: 10px;
+        text-align: left;
     }
 }
