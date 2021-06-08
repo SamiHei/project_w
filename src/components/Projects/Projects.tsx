@@ -15,7 +15,7 @@ function Projects() {
         })
     }
 
-    function CapitalizeProjectNames(text) {
+    function CapitalizeProjectNames(text : string) {
         let parts = text.split('_');
         let res = '';
         let len = parts.length;
@@ -34,7 +34,7 @@ function Projects() {
         GetMyProjects();
     },[])
 
-    const Arrow = ({ text, className }) => {
+    const Arrow = ( text : string, className : string)=> {
         return (
             <div
                 className={className}
