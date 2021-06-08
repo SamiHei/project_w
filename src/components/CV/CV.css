@@ -224,7 +224,6 @@
     
     .lower-header {
         font-size: 30px;
-        text-decoration: underline;
     }
     
     .profile-container {
@@ -236,14 +235,6 @@
         padding-top: 25px;
         margin-left: 0px;
         list-style-type: none;
-    }
-    
-    .profile-list li {
-        padding: 10px;
-    }
-    
-    .education-container {
-        padding-top: 25px;
     }
     
     .education-text {
@@ -300,11 +291,6 @@
     .skills-header-right {
         padding-top: 30px;
         font-size: 25px;
-    }
-    
-    .work-container {
-        padding-top: 25px;
-        margin-bottom: 100px;
     }
     
     .work-experience-container {
