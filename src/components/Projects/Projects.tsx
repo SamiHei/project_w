@@ -3,10 +3,27 @@ import ScrollMenu from 'react-horizontal-scrolling-menu';
 import './Projects.css';
 import GithubLogo from '../../images/GitHub_Logo.png'
 
+interface Arrow {
+    text : string;
+    className : string;
+}
+
+interface MenuItem {
+    url : string;
+    text : string;
+    language : string;
+}
+
+interface Project {
+    name : string;
+    language: string;
+    html_url : string;
+}
+
 
 function Projects() {
 
-    const [projects, setProjects] = useState([])
+    const [projects, setProjects] = useState<Project[]>([])
 
     async function GetMyProjects() {
         await fetch('https://api.github.com/users/SamiHei/repos')
@@ -34,28 +51,28 @@ function Projects() {
         GetMyProjects();
     },[])
 
-    const Arrow = ( text : string, className : string)=> {
+    const Arrow = ( arrow : Arrow ) => {
         return (
             <div
-                className={className}
-            >{text}</div>
+                className={arrow.className}
+            >{arrow.text}</div>
         );
     };
 
-    const MenuItem = ({url, text, language, selected}) => {
-        return <a href={url} target="_blank" rel="noreferrer"
-            className={`project-item-container ${selected ? 'active' : ''}`}>
-                <div className="project-item-content">{text}</div>
-                <div className="project-language">{language}</div> 
+    const MenuItem = ( menuItem : MenuItem) => {
+        return <a href={menuItem.url} target="_blank" rel="noreferrer"
+            className={`project-item-container`}>
+                <div className="project-item-content">{menuItem.text}</div>
+                <div className="project-language">{menuItem.language}</div> 
                 <img src={GithubLogo} className="project-github-logo" alt="GitHub" />
             </a>
     }
 
     const Menu = () =>
-        projects.map(item => {
+        projects.map(item  => {
         const name = CapitalizeProjectNames(item.name);
-        const {language} = item;
-        const {html_url} = item;
+        const language = item.language;
+        const html_url = item.html_url;
 
         return <MenuItem url={html_url} text={name} language={language} key={name} />;
     });
@@ -73,7 +90,7 @@ function Projects() {
                 arrowLeft={ArrowLeft}
                 arrowRight={ArrowRight}
                 wheel={false}
-                transition="1"
+                transition={1}
                 />
             </div>
         </div>
@@ -81,8 +98,3 @@ function Projects() {
 }
 
 export default Projects;
-
-// example for scroll
-// https://www.npmjs.com/package/react-horizontal-scrolling-menu
-
-// TODO: Create list of the items for the menu that are in <div></div> and styled

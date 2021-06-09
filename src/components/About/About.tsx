@@ -3,7 +3,6 @@ import './About.css';
 import data from '../../content/about_me.json';
 
 
-
 function About() {
 return (
     <div id="page-2">
