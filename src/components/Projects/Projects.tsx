@@ -69,7 +69,7 @@ function Projects() {
     }
 
     const Menu = () =>
-        projects.map(item  => {
+        projects.map(item => {
         const name = CapitalizeProjectNames(item.name);
         const language = item.language;
         const html_url = item.html_url;
