@@ -1,5 +1,5 @@
 {
-    "introduction": "Wellness technology engineer and IT student at the University of Jyväskylä. At the moment, my greatest strenghts are in test automation as well in DevOps (in test automation solutions). I also do programming in my free time and have gone through some programming courses in the university.",
+    "introduction": "Wellness technology engineer and IT student at the University of Jyväskylä. At the moment, my greatest strenghts are in test automation as well in DevOps. I also do programming in my free time and have gone through some programming courses in the university.",
     "profile1": "An avid IT worker",
     "profile2": "IT student at the University of Jyväskylä and graduated Wellness technology engineer",
     "profile3": "Expertise specially on test automation, CI/CD solutions and also Python programming",
@@ -23,17 +23,22 @@
 
     "automation": "CI/CD solutions (Jenkins and CircleCI)",
 
-    "workExp1": "Test automation consultant | Q-Factory Oy | September 2020 - present",
-    "workExp1_1": "Test automation (Robot Framework and Python)",
-    "workExp1_2": "Jenkins",
+    "workExp1": "QA Engineer | Firstbeat Technologies Oy | May 2017 - February 2019",
+    "workExp1_1": "Designing and executing manual testing",
+    "workExp1_2": "Test automation implementations",
+    "workExp1_3": "Searching best test automation technologies and solutions",
 
     "workExp2": "DevOps Specialist | Firstbeat Technologies Oy | February 2019 - June 2020",
     "workExp2_1": "CI/CD solutions and maintenance for existing environments",
     "workExp2_2": "Jenkins and CircleCI solutions",
     "workExp2_3": "Java programming",
 
-    "workExp3": "QA Engineer | Firstbeat Technologies Oy | May 2017 - February 2019",
-    "workExp3_1": "Designing and executing manual testing",
-    "workExp3_2": "Test automation implementations",
-    "workExp3_3": "Searching best test automation technologies and solutions"
+    "workExp3": "Test automation consultant | Q-Factory Oy | September 2020 - September 2021",
+    "workExp3_1": "Test automation (Robot Framework and Python)",
+    "workExp3_2": "Jenkins",
+
+    "workExp4": "Software Test Engineer | Etteplan | October 2021 - present",
+    "workExp4_1": "DevOps",
+    "workExp4_2": "Jenkins, Monitoring, Development environments, Test automation",
+    "workExp4_3": "Docker, Virtual machines, Linux"
 }

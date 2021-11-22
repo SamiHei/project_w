@@ -66,19 +66,24 @@ return (
         <div className="lower-header">Work experience</div>
         <div className="work-experience-container">
 
-          <div className="work-header">{content.workExp1}</div>
-          <li>{content.workExp1_1}</li>
-          <li>{content.workExp1_2}</li>
+          <div className="work-header">{content.workExp4}</div>
+          <li>{content.workExp4_1}</li>
+          <li>{content.workExp4_2}</li>
+          <li>{content.workExp4_3}</li>
+
+          <div className="work-header">{content.workExp3}</div>
+          <li>{content.workExp3_1}</li>
+          <li>{content.workExp3_2}</li>
 
           <div className="work-header">{content.workExp2}</div>
           <li>{content.workExp2_1}</li>
           <li>{content.workExp2_2}</li>
           <li>{content.workExp2_3}</li>
 
-          <div className="work-header">{content.workExp3}</div>
-          <li>{content.workExp3_1}</li>
-          <li>{content.workExp3_2}</li>
-          <li>{content.workExp3_3}</li>
+          <div className="work-header">{content.workExp1}</div>
+          <li>{content.workExp1_1}</li>
+          <li>{content.workExp1_2}</li>
+          <li>{content.workExp1_3}</li>
         </div>
       </div>
     </div>
